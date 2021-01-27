@@ -22,7 +22,7 @@ class Movie extends React.Component {
               <h3>Director: {this.props.movie.Director}</h3>
               <h4>Genre: {this.props.movie.Genre}</h4>
               <h4>Cast: {this.props.movie.Actors}</h4>
-              <img src= {this.props.movie.Poster} />
+              <img src= {this.props.movie.Poster} alt="movie poster"/>
               <p>{this.props.movie.Plot}</p>
             </div>
         );
